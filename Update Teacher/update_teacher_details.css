@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:inherit;
+    background-color: rgb(240, 238, 231);
+}
+.logo img{
+    float:left;
+    width:300px;
+    height:150px;
+    margin-left: -170%;
+
+    }
+    .h{
+        color: rgb(228, 181, 93);
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    
+    header
+    {
+    background-color: white;
+    height:100vh;
+    width: 100%;
+    background-size:cover;
+    background-position:center;
+    }    
+.main h1{
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(34, 25, 12);
+    text-shadow: 1px 1px 3px rgb(77, 71, 71);
+    padding: 0.3rem; 
+}
+#i1{
+    margin-left: -2%;
+    margin-top: 1%;
+    font-size: 100%;
+    width: 35%;
+    border-radius: 5px;
+    color: black;
+    border-color: black;
+    background-color: rgb(240, 238, 231);
+    
+}
+#i2{
+    margin-left: 5%;
+    margin-top: -2.5%;
+    font-size: 100%;
+    width: 35%;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(240, 238, 231);
+    border-color: black;
+}
+#i3{
+    margin-left: -2%;
+    margin-top: 2%;
+    font-size: 100%;
+    border-radius: 5px;
+    width: 35%;
+    color: black;
+    border-color: black;
+    background-color: rgb(240, 238, 231);
+}
+#i4{
+    margin-left: 5%;
+    margin-top: -2.5%;
+    border-radius: 5px;
+    font-size: 100%;
+    width: 35%;
+    color: black;
+    border-color: black;
+    
+    background-color: rgb(240, 238, 231);
+}
+#i5{
+    margin-left: -2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    font-size: 100%;
+    width: 35%;
+    color: black;
+    border-color: black;
+    background-color: rgb(240, 238, 231);
+}
+#i6{
+    margin-left: 5%;
+    margin-top: -2.5%;
+    font-size: 100%;
+    width: 35%;
+    border-radius: 5px;
+    color: black;
+    border-color: black;
+    background-color: rgb(240, 238, 231);
+}
+#i7{
+    margin-left: -2%;
+    margin-top: 2%;
+    font-size: 100%;
+    width: 35%;
+    border-radius: 5px;
+    color: black;
+    border-color: black;
+    background-color: rgb(240, 238, 231);
+}
+#i8{
+    margin-left: 5%;
+    margin-top: -2.5%;
+    font-size: 100%;
+    width: 35%;
+    color: black;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgb(240, 238, 231);
+}
+#i9,
+ #i10 {
+     padding: 0.5rem 2rem;
+     background-color: rgb(240, 176, 58);
+     border: 0;
+     font-weight: 600;
+     outline: none;
+     color: whitesmoke;
+     border-radius: 10px;
+     margin: 0 0 1rem 0;
+     font-size: 1rem;
+     transition: all 1s;
+     cursor: pointer;
+     margin-top: 15px;
+ }
+
+ #i10 {
+     background-color: rgb(105, 103, 100);
+ }
+
+.form {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 2rem;
+    box-shadow: 3px 3px 6px rgb(34, 33, 33);
+    background-color: rgb(255, 255, 255);
+}
+
+.inputs {
+    margin: 0rem 0;
+    padding: 0.3rem;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    background-color: rgb(240, 235, 235);
+}
+
+
+
+
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px rgb(228, 181, 93);
+    background-color: rgb(240, 238, 231);
+    box-sizing: border-box;
+}
+
+
+nav>a {
+    text-decoration: none;
+}
+
+.mainName {
+    font-size: 1.0rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(169, 90, 243);
+    border-radius: 10px;
+    transform: rotate(-10deg);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color: rgb(231, 213, 213);
+}
+/* aftear button hover effect */
+.mainName:hover {
+    transform: rotate(0deg);
+}
+
